@@ -1,0 +1,21 @@
+
+:root{
+    --hAw:45px;
+    
+}
+.hum{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 50px;
+    height: 30px;
+}
+
+.bar{
+    width: var(--hAw);
+    height: calc( var(--hAw) * 0.1 );
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
